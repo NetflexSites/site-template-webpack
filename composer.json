@@ -1,0 +1,18 @@
+{
+  "type": "project",
+  "license": "MIT",
+  "require": {
+    "netflex/sitev3": "dev-master",
+    "apility/opengraph": "^1.0",
+    "larapack/dd": "^1.1"
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "git@github.com:apility/SiteV3.git"
+    }
+  ],
+  "autoload": {
+    "psr-4": {}
+  }
+}
