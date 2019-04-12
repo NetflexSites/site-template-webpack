@@ -11,8 +11,5 @@
       "type": "vcs",
       "url": "git@github.com:apility/SiteV3.git"
     }
-  ],
-  "autoload": {
-    "psr-4": {}
-  }
+  ]
 }
