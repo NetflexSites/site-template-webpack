@@ -1,13 +1,12 @@
 const path = require('path');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const autoprefixer = require('autoprefixer')
-const package = require('../package.json')
-const rootDir = path.resolve(__dirname, '..')
+const package = require('./package.json')
 
 module.exports = {
   entry: [
-    path.join(rootDir, 'assets/js/app.js'),
-    path.join(rootDir, 'assets/scss/styles.scss')
+    path.resolve(__dirname, 'assets/js/app.js'),
+    path.resolve(__dirname, 'assets/scss/styles.scss')
   ],
   performance: {
     hints: false
@@ -26,7 +25,7 @@ module.exports = {
   ],
   output: {
     filename: 'js/[name].js',
-    path: path.join(rootDir, 'public/assets')
+    path: path.resolve(__dirname, 'public/assets')
   },
   module: {
     rules: [
