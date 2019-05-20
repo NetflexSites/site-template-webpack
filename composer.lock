@@ -4,8 +4,58 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "5feac40d198406ac6abfa4bf5e13a3df",
+    "content-hash": "3da0544750cf06bc3e53b559654b0540",
     "packages": [
+        {
+            "name": "apility/netflex-sdk",
+            "version": "v1.0.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/apility/netflex-sdk.git",
+                "reference": "f187530bf6fdf24347d994965c45ece3f1bef738"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/apility/netflex-sdk/zipball/f187530bf6fdf24347d994965c45ece3f1bef738",
+                "reference": "f187530bf6fdf24347d994965c45ece3f1bef738",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/guzzle": "^6.2",
+                "nesbot/carbon": "^1.21",
+                "php-console/php-console": "^3.1",
+                "phpfastcache/phpfastcache": "^7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Netflex\\": "src/Netflex"
+                },
+                "files": [
+                    "src/NF.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Olav Øyen",
+                    "email": "olav@apility.no",
+                    "homepage": "https://github.com/olavoyen",
+                    "role": "Developer"
+                }
+            ],
+            "description": "The Netflex platform SDK",
+            "homepage": "https://github.com/apility/netflex-sdk",
+            "keywords": [
+                "framework",
+                "netflex",
+                "sdk"
+            ],
+            "time": "2019-05-14T08:59:03+00:00"
+        },
         {
             "name": "apility/opengraph",
             "version": "v1.0.1",
@@ -427,40 +477,6 @@
                 "time"
             ],
             "time": "2018-12-28T10:07:33+00:00"
-        },
-        {
-            "name": "netflex/siteV3",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:apility/SiteV3.git",
-                "reference": "244876f2f7f02f47e74c5c938ec83c3b08e5cc41"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/apility/SiteV3/zipball/244876f2f7f02f47e74c5c938ec83c3b08e5cc41",
-                "reference": "244876f2f7f02f47e74c5c938ec83c3b08e5cc41",
-                "shasum": ""
-            },
-            "require": {
-                "guzzlehttp/guzzle": "^6.2",
-                "intervention/image": "^2.4",
-                "mikehaertl/php-shellcommand": "^1.4",
-                "nesbot/carbon": "^1.21",
-                "php-console/php-console": "^3.1",
-                "phpfastcache/phpfastcache": "^7.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Netflex\\Site\\": "/"
-                }
-            },
-            "support": {
-                "source": "https://github.com/apility/SiteV3/tree/master",
-                "issues": "https://github.com/apility/SiteV3/issues"
-            },
-            "time": "2019-04-24T14:55:27+00:00"
         },
         {
             "name": "php-console/php-console",
@@ -1184,9 +1200,7 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "netflex/sitev3": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
