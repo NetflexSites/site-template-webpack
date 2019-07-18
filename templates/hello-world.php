@@ -13,7 +13,7 @@
       </h2>
     </div>
     <div class="inline-block align-middle">
-      <p>To get started see the <a href="https://docs.netflex.dev">developer documentation</a></p>
+      <p>To get started see the <a href="https://docs.netflex.dev" target="_blank">developer documentation</a></p>
     </div>
   </main>
   <? get_block('footer') ?>
