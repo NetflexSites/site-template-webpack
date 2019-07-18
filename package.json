@@ -1,5 +1,4 @@
 {
-  "name": "@netflexsites/site-template-webpack",
   "version": "1.0.0",
   "description": "Netflex Webpack Site Template",
   "scripts": {
