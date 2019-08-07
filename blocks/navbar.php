@@ -17,7 +17,7 @@
 
     <div id="navbar-content" class="collapse navbar-collapse">
       <ul class="navbar-nav mr-auto">
-        <?= build_nav(10000, 1, 'navbar-nav mr-auto', 'nav', null, 'nav-item', 'nav-link') ?>
+        <?= build_nav(0, 1, 'navbar-nav mr-auto', 'nav', null, 'nav-item', 'nav-link') ?>
       </ul>
     </div>
   </nav>
