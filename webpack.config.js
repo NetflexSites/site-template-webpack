@@ -11,12 +11,6 @@ module.exports = {
     hints: false
   },
 
-  stats: {
-    all: false,
-    assets: true,
-    chunks: false
-  },
-
   devtool: 'source-map',
 
   mode: process.env.NODE_ENV === 'production' ? 'production' : 'development',
